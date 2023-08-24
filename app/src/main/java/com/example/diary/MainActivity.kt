@@ -3,6 +3,7 @@ package com.example.diary
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.core.widget.TextViewCompat
 import com.example.diary.ui.theme.DiaryTheme
 
 class MainActivity : ComponentActivity() {
