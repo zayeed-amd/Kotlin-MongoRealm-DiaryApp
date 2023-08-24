@@ -2,3 +2,9 @@ Color themes:
 https://m3.material.io/theme-builder#/custom
 select download and extract
 
+developer.android.com
+https://developer.android.com/develop/ui/views/launch/splash-screen
+
+Icon
+https://www.figma.com/file/heKHpRC1QIVjlSkNDSLL5v/Untitled?type=design&node-id=1-6&mode=design&t=VxfPTtmDmbbHuUtI-0
+https://www.iconpacks.net/free-icon/diary-1118.html
