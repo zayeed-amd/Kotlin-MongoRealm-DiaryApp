@@ -46,3 +46,64 @@ Two different Synch Modes:
 		- Queryable fields (so can be queried by client app, and it knows which object to actually sync)
 		- Data Access Rule and Roles (after that, the application services will apply rules and default rolse to those queries to determine whether the user can actually read or write the objects that matches the query.)
 - Old Partitioned Sync (not recom)
+
+
+Steps to add Atlas:
+Video 14: https://amdlearning.udemy.com/course/complete-multi-modular-architecture-for-android-development/learn/lecture/35347208#questions/19519518
+
+Create a Database under ATlas
+create an App under App service
+under application, enable Google Auth
+
+now at google cloud console 
+https://console.cloud.google.com/getting-started?_ga=2.100374236.-393985622.1692862580&_gac=1.82368996.1692862580.Cj0KCQjw_5unBhCMARIsACZyzS2qx-otuvD_iDPpTPgVZSJggvI5Fm_0AGp-nYTAIKxIAuyirM8SFpwaAkD8EALw_wcB&pli=1
+open a new project
+Create a new Project DairyApp
+
+select thr project > APIs and Services > 
+.......
+
+
+
+Android Studio: gradle signingreport
+3:47:44 AM: Executing 'signingreport'...
+
+Executing tasks: [signingreport] in project C:\Users\Zayeed\AndroidStudioProjects\Diary
+
+
+> Task :app:signingReport
+Variant: debug
+Config: debug
+Store: C:\Users\Zayeed\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: AF:6F:5B:C3:55:2B:C1:3F:7D:1A:CD:F1:46:8C:E2:FD
+SHA1: 6E:98:5B:A9:75:FC:6D:CD:B2:3D:37:F4:FC:AE:10:0A:65:B0:32:FC
+SHA-256: 96:AA:20:97:54:78:C7:62:25:32:17:8D:68:D6:57:EE:4F:AB:94:0F:F7:74:96:CD:32:7B:07:46:20:99:08:DD
+Valid until: Friday, August 15, 2053
+----------
+Variant: release
+Config: null
+Store: null
+Alias: null
+----------
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Zayeed\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: AF:6F:5B:C3:55:2B:C1:3F:7D:1A:CD:F1:46:8C:E2:FD
+SHA1: 6E:98:5B:A9:75:FC:6D:CD:B2:3D:37:F4:FC:AE:10:0A:65:B0:32:FC
+SHA-256: 96:AA:20:97:54:78:C7:62:25:32:17:8D:68:D6:57:EE:4F:AB:94:0F:F7:74:96:CD:32:7B:07:46:20:99:08:DD
+Valid until: Friday, August 15, 2053
+----------
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+
+Build Analyzer results available
+3:47:47 AM: Execution finished 'signingreport'.
+
+
+web app:
+
+623706680250-cr866uuaojq21fc75tml7t46on07g07m.apps.googleusercontent.com
+
