@@ -8,3 +8,41 @@ https://developer.android.com/develop/ui/views/launch/splash-screen
 Icon
 https://www.figma.com/file/heKHpRC1QIVjlSkNDSLL5v/Untitled?type=design&node-id=1-6&mode=design&t=VxfPTtmDmbbHuUtI-0
 https://www.iconpacks.net/free-icon/diary-1118.html
+
+Realm 
+Fast and Scalable Database
+Mobile efast Database designed for data driven applications
+Can be used to build:
+Mobile, Web, Desktop and IOT applications
+
+Embedded OO database that allows you to build realtime applications, Its SDKs also provide to the ATlas App services which is a secure backend that can sync data between devices that they can authenticate users, manage devices and manymore.
+
+
+Realm Sync
+aka Device Sync - Synchronization Service
+A service which will allow you to easily synchronize the data between a client side database and a MongoDB backend, which we call Atlas. So basically on the Sync we do all the heavy lifting for you.
+YOu dont have to worry about the internet connection, and the synchronization between the local and the remote database. You dont even have to worry about the handling exceptions,
+about properly serializing data from client to server and vice versa. Realm synch automatically bridges the gap between the local storage and your MongoDB Atlas to keep the data current and accurate.
+
+Example: 
+If a you save a data when no internet connection is on, the data will be saved locally on your Realm Database, but not o your backend, however, the moment you connect to innternet, the Realm Sync will automatically do the sync with ATlas for you. 
+No worry about inaccuracy or duplication. Bottom line, Realm Sync is an amazing solution for multiplatform projects. 
+
+
+Realm Sync uses object models where you can define the types of object/data in the Realm. Sync requires a server side document schema for each object you want to synchronize. So that the app services can translate and apply changes between Realm Sync and MongoDB Atlas.
+
+There are two ways of generating the schema on Atlas:
+1. Automatically
+	- With a developer Mode
+2. Manually
+	- writing JSON structure schema
+
+
+Two different Synch Modes:
+
+
+- Fleible Sync
+	Define
+		- Queryable fields (so can be queried by client app, and it knows which object to actually sync)
+		- Data Access Rule and Roles (after that, the application services will apply rules and default rolse to those queries to determine whether the user can actually read or write the objects that matches the query.)
+- Old Partitioned Sync (not recom)
