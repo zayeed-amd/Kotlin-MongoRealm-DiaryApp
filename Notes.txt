@@ -56,10 +56,13 @@ create an App under App service
 under application, enable Google Auth
 
 now at google cloud console 
+(zayeed.edureka@gmail.com)
 https://console.cloud.google.com/getting-started?_ga=2.100374236.-393985622.1692862580&_gac=1.82368996.1692862580.Cj0KCQjw_5unBhCMARIsACZyzS2qx-otuvD_iDPpTPgVZSJggvI5Fm_0AGp-nYTAIKxIAuyirM8SFpwaAkD8EALw_wcB&pli=1
 open a new project
 Create a new Project DairyApp
 
+
+https://console.cloud.google.com/apis/credentials?organizationId=0&project=diaryapp-396907
 select thr project > APIs and Services > 
 .......
 
@@ -107,3 +110,6 @@ web app:
 
 623706680250-cr866uuaojq21fc75tml7t46on07g07m.apps.googleusercontent.com
 
+
+
+// Kotlin interview prep: https://www.interviewbit.com/kotlin-interview-questions/

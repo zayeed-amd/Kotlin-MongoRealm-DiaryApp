@@ -4,7 +4,9 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import androidx.core.widget.TextViewCompat
+import androidx.navigation.compose.rememberNavController
+import com.example.diary.navigation.Screen
+import com.example.diary.navigation.SetupNavGraph
 import com.example.diary.ui.theme.DiaryTheme
 
 class MainActivity : ComponentActivity() {
@@ -13,7 +15,8 @@ class MainActivity : ComponentActivity() {
         installSplashScreen()
         setContent {
             DiaryTheme {
-
+                    val navController = rememberNavController()
+                    SetupNavGraph(startDestination = Screen.Authentication.route, navController = navController )
                 }
             }
         }
